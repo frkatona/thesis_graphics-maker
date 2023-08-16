@@ -14,4 +14,8 @@
 - tbd
 
 ## GCode
-- this princess is in another castle (https://github.com/frkatona/GCode_LaserWriting)
+- this princess is in another castle (https://github.com/frkatona/GCode_LaserWriting) 
+
+## Contact Angle
+- (see contact angle image example image)
+![contact angle](images\contact-angle.png)
