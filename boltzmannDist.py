@@ -37,6 +37,10 @@ for i, T in enumerate(temperatures_sorted):
                  fontsize=2*plt.rcParams['font.size'], color=colors[i],
                  path_effects=[pe.withStroke(linewidth=3, foreground='black')])
 
+# Add the Boltzmann equation to the plot
+equation = r"$f(E) = \sqrt{\frac{2}{\pi}} \frac{\sqrt{E} e^{-\frac{E}{kT}}} {(kT)^{1.5}}$"
+plt.text(0.5, 0.1, equation, transform=plt.gca().transAxes, ha='center', fontsize=14, bbox=dict(facecolor='white', edgecolor='black', boxstyle='round'))
+
 plt.xlabel('Kinetic Energy')
 plt.ylabel('Fraction of Molecules')
 plt.xticks([])  # Remove x-axis numbers
